@@ -93,14 +93,89 @@ footer{
     text-align: center;
 }
 
+.text_box_ .container {width: 100%; padding: 0;}
+	.controls, .container-filter {display:table; width:100%}
+	button.control:focus, button.control:hover, button.control:active {
+		outline:none}
+	button.control {
+		border:0; background:#4cc7e9; padding:0; width:32%; margin:0.5%;
+		display:block; float:left;
+		height:50px; color:#fff; font-size:14px; font-weight:bold}
+	button.control.mixitup-control-active{background:#393939}
+
+	.more-link {overflow:hidden; padding:15px 0; text-align:center}
+	.more-link a {display:inline-block; line-height:35px; color:#fff; font-weight:bold; font-size:16px; padding:0 20px; background:#4cc7e9}
+	.text_box_ {
+		max-width:660px; margin:0 auto}
+	.text_box_ img {max-width:100%}
+	.text_reg {overflow:hidden}
+	.text_reg-link {
+		display:block; color:#fff; text-align:center; text-decoration:none; font-weight:bold; font-size:15px;
+		background:#4cc7e9; width:280px; line-height:35px;  margin:15px auto 0}
+	.text_reg-link:hover {color:#fff; background:#222}
+	.t-center {
+		text-align:center}
+	.text_box_action {
+		max-width: 660px; display:table; background:#fff; margin:15px auto 0}
+	.mix, .list-action {
+		width:210px; margin:5px; text-align:center; float:left}
+	.mix .list-action {margin:0}
+	.list-action a {
+		text-decoration:none; display:block; overflow:hidden; color:#222}
+	.list-action a:hover {
+		box-shadow:0 1px 15px #ccc}
+	.list-action a:hover img {
+		transform:scale(1.08)}
+	.list-action a:hover .list-action-img {
+		border-color:#fff}
+	.list-action a:hover .list-action-more {
+		border:1px solid #4cc7e9; padding:5px 15px}
+	.list-action-img {
+		padding:6px; border:1px solid #ddd}
+	.list-action-img img {
+		display:block; width:100%; height:auto; margin:0 auto}
+	.list-action-title {
+		padding-top:15px; font-size:15px}
+	.list-action-price {
+		padding:12px 0 0; font-size:16px; font-weight:bold}
+	.list-action-ser {
+		padding-bottom:15px; font-size:13px; font-weight:bold}
+	.list-action-more {
+		font-size:15px; font-weight:bold;
+		display:table; margin:10px auto 15px; color:#4cc7e9;
+		line-height:20px; padding:5px 0; border:1px solid #fff; border-bottom:1px solid #4cc7e9}
+
+	.list-action a, .list-action-img, 
+	.list-action-img img, .list-action-more {
+		transition:0.3s ease-in-out}
+	.all_tov {
+		color:#fff; font-size:17px; line-height:50px; text-align:center; font-weight:bold; background:#222; margin-top:50px; margin-bottom:15px}
 
 
+
+@media only screen and (max-width:2200px) and (min-width:1024px) {
+		.text_reg-link.mob {display:inline-block; margin:0 10px}
+		.last-c {
+			margin:0; margin-top:5px; margin-left:80px}
+        .list-action-img {height:210px}
+        
 @media screen and (max-width: 1400px) {
     .b01 p {
         max-width: 100%;
         padding: 50px 20px 200px 20px;
     }
 }
+	}
+
+@media only screen and (max-width:1023px) and (min-width:300px) {
+		.list-action, .mix {
+			width:48%; margin:1%}
+		.mix .list-action {width:100%}
+	}
+
+
+
+
 
 @media screen and (max-width: 900px) {
     .b02 p, .b03 p {
@@ -135,4 +210,8 @@ footer{
 
 
     
+}
+
+@media only screen and (max-width:450px) and (min-width:300px) {
+    .list-action-more {font-size:13px}
 }
