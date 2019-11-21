@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "GraphikLCG";
+    src: url("fonts/GraphikLCG-Regular.otf"), 
+}
+
+@font-face {
+    font-family: "GraphikLCG-Bold";
+    src: url("fonts/GraphikLCG-Bold.otf");
+}
+
+body {
+    font-family: "GraphikLCG", Helvetica, sans-serif ;
+}
+
+b {
+    font-family: "GraphikLCG-Bold", sans-serif;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+}
+
+.block {
+    width: 100%;
+    padding: 20px;
+}
+
+.b01 {
+    background: url(../img/products.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 30px;
+}
+
+.b01 p {
+    max-width: 50%;
+    text-align: justify;
+    padding: 100px 0 400px 30px;
+}
+
+.b02 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.b02 p {
+    display: inline-block;
+    max-width: 45%;
+    padding: 100px 0;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.block-img {
+    max-width: 500px;
+    display: inline-block;
+}
+
+.b03 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.b03 p {
+    display: inline-block;
+    max-width: 45%;
+    padding: 100px 0;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.b03 img {
+    padding: 30px;
+}
+
+.b04 {
+    text-align: center;
+    font-size: 40px;
+    padding: 100px;
+}
+
+
+footer{
+    background: #00457c;
+    padding: 100px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    .b01 p {
+        max-width: 100%;
+        padding: 50px 20px 200px 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .b02 p, .b03 p {
+        max-width: 80%;
+    }
+
+    .b04 {
+        font-size: 25px;
+        padding: 50px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .b01 p {
+        padding: 50px 10px 50px 10px;
+        font-size: 20px;
+    }
+    .block-img {
+        max-width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .b02 p, .b03 p {
+        max-width: 100%;
+    }
+
+    footer{
+        padding: 50px;
+    }
+
+
+    
+}
