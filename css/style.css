@@ -106,7 +106,7 @@ footer{
 	.more-link {overflow:hidden; padding:15px 0; text-align:center}
 	.more-link a {display:inline-block; line-height:35px; color:#fff; font-weight:bold; font-size:16px; padding:0 20px; background:#4cc7e9}
 	.text_box_ {
-		max-width:660px; margin:0 auto}
+		max-width:1100px; margin:0 auto}
 	.text_box_ img {max-width:100%}
 	.text_reg {overflow:hidden}
 	.text_reg-link {
@@ -158,19 +158,23 @@ footer{
 		.last-c {
 			margin:0; margin-top:5px; margin-left:80px}
         .list-action-img {height:210px}
+    }
         
 @media screen and (max-width: 1400px) {
     .b01 p {
-        max-width: 100%;
+        max-width: 80%;
         padding: 50px 20px 200px 20px;
     }
 }
-	}
+	
 
 @media only screen and (max-width:1023px) and (min-width:300px) {
 		.list-action, .mix {
 			width:48%; margin:1%}
-		.mix .list-action {width:100%}
+        .mix .list-action {width:100%}
+        .b01 p {
+            max-width: 100%;
+        }
 	}
 
 
@@ -191,6 +195,7 @@ footer{
 
 @media screen and (max-width: 600px) {
     .b01 p {
+        max-width: 100%;
         padding: 50px 10px 50px 10px;
         font-size: 20px;
     }
