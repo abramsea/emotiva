@@ -97,13 +97,48 @@ header {
     text-align: center;
     font-size: 40px;
     padding: 100px;
+    background: #4cc7e9;
 }
 
 
 footer{
-    background: #00457c;
+    background: #000;
     padding: 100px;
     text-align: center;
+}
+
+footer p {
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    color: #fff;
+}
+
+.logo_bottom {
+    width: 120px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.links {
+    margin-top: 30px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;  
+  transition: all 0.2s;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.links a:first-of-type {
+    border-right: 1px solid #f2f2f2;
+}
+
+.links a:hover {
+    color: #00caf0;
 }
 
 .text_box_ .container {width: 100%; padding: 0;}
