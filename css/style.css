@@ -95,9 +95,27 @@ header {
 
 .b04 {
     text-align: center;
-    font-size: 40px;
-    padding: 100px;
+    font-size: 30px;
+    padding: 60px;
     background: #4cc7e9;
+}
+
+.b05 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.button_listen {
+    background: #4cc7e9;
+    color: #fff;
+    transition: all .3s;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.button_listen:hover {
+    background: #333741;
 }
 
 
@@ -138,17 +156,24 @@ footer p {
 }
 
 .links a:hover {
-    color: #00caf0;
+    color: #4cc7e9;
 }
 
 .text_box_ .container {width: 100%; padding: 0;}
 	.controls, .container-filter {display:table; width:100%}
 	button.control:focus, button.control:hover, button.control:active {
-		outline:none}
+        outline:none}
+    .controls {
+        margin-bottom: 100px;
+    }
+    button.control:hover {
+        background: #333741;
+        cursor: pointer;
+    }
 	button.control {
 		border:0; background:#4cc7e9; padding:0; width:32%; margin:0.5%;
 		display:block; float:left;
-		height:50px; color:#fff; font-size:14px; font-weight:bold}
+		height:50px; color:#fff; font-size:14px; font-weight:bold; transition: all .3s;}
 	button.control.mixitup-control-active{background:#393939}
 
 	.more-link {overflow:hidden; padding:15px 0; text-align:center}
@@ -235,7 +260,7 @@ footer p {
     }
 
     .b04 {
-        font-size: 25px;
+        font-size: 20px;
         padding: 50px;
     }
 }
